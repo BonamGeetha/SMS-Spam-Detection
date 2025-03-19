@@ -11,12 +11,16 @@ Lowercasing: Converting all text to lowercase.
 Stop Word Removal: Eliminating common words (e.g., "the," "a," "is") that don't contribute much to meaning.
 Tokenization: Splitting the text into individual words or tokens.
 Stemming/Lemmatization: Reducing words to their root form.
+
+
 2. Feature Extraction:
 
 Vectorization:
 Machine learning models require numerical input, so text data must be converted into numerical vectors. Common techniques include:
 CountVectorizer: Counts the occurrences of each word in the text.
 TF-IDF (Term Frequency-Inverse Document Frequency): Assigns weights to words based on their frequency in a message and their rarity across the entire dataset.
+
+
 3. Model Selection and Training:
 
 Machine Learning Algorithms:
@@ -34,6 +38,8 @@ Precision: The proportion of correctly predicted spam messages.
 Recall: The proportion of actual spam messages correctly identified.
 F1-score: A balanced measure of precision and recall.
 Confusion Matrices.
+
+
 4. Implementation:
 
 Python Libraries:
